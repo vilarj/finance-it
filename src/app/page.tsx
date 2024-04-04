@@ -1,3 +1,4 @@
+import Main from "@/components/Main";
 import Menu from "@/components/Menu";
 import Title from "@/components/Title";
 
@@ -6,6 +7,7 @@ export default function Home() {
     <div>
       <Title />
       <Menu />
+      <Main />
     </div>
   );
 }
